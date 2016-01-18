@@ -4,15 +4,18 @@ In-Class Activity #5
 CISC221, 2014
 
 
--Learning Objectives-
+# Learning Objectives
 (Content) This activity should help the learner:
+
 1. Better understand the limits that a computer’s Instruction Set Architecture can impose on program performance on a given computer architecture.
+2. 
 2. Apply appropriate optimization techniques relating to loop inefficiencies, procedure call, and memory references.
 
 
--Activity Background-
+# Activity Background
 In this activity you are provided with a short C program. Your job is to optimize the given code, and run before and after performance tests to quantify your optimization efforts. You will use the program “rpistat <program name>” to generate performance information.
 Section A.
+
 1. At least one member of your team must use a laptop to log into the raspberry pi assigned to your team.
 2. Retrieve the file icas6.c from /cas/course/ydrive/cisc221 in the CASLAB domain.
 3. Compile the program using the command: gcc –O0 –o icas6 icas6.c.
